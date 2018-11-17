@@ -12,7 +12,6 @@ token = "secret token"
 loop = asyncio.get_event_loop()
 
 #https://www.youtube.com/watch?v=YMBzb_RBDAA
-print("hello")
 def flask_app():
     app = Flask(__name__)
 
