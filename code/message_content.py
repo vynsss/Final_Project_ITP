@@ -40,7 +40,7 @@ class MyClient(discord.Client):
 
     async def send_github_notif(self, content):
         #id from channel id in discord server
-        channel = discord.Object(id='508174256920723459')
+        channel = discord.Object(id='channel id')
         await self.send_message(channel, content)
         print('github notif sent')
 
