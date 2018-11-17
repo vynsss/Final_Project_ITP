@@ -6,7 +6,7 @@ import threading
 
 
 client = MyClient()
-token = "NDk4ODM2MDE3NjUxMTIyMTc2.DtBd5A.j2giz3KIl2EY6fAQkYX8S8_HKnY"
+token = "secret token"
 
 #loop every events that is happening in my github repository
 loop = asyncio.get_event_loop()
